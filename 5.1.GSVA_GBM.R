@@ -1,9 +1,9 @@
-###############
-### ARG GBM ###
-###############
+#########################
+### ARG GBM treatment ###
+#########################
 
 ### Explanation
-# We will use the previous TPM converted GEO datasets
+# We will use the previous TPM converted GEO datasets with chemotherapy glioma treated samples
 # STEPS:
 # (1) Filtering for ARGs
 # (2) Analysis of ARGs 
