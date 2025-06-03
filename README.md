@@ -1,2 +1,4 @@
 # TCC - Camilla Brückmann de Mattos
 Códigos utilizados para a elaboração do trabalho de conclusão de curso como requisito parcial à obtenção do grau de bacharela em Biotencologia pela UFRGS.  As anotações do código estão todas em inglês, visto que as análises foram feitas para serem inclusas no modelo de artigo para o periódico Autophagy.
+
+O artigo foi entitulado "Functional autophagy gene set signature and state classification reveal a link between autophagy induction, lysosomal activity, and poor prognosis in glioblastoma". Os códigos aqui contidos foram utilizados para download de dados por terminal, manipualção de tabelas, filtragem de dados, GSVA, heatmap clustering, análises de expressão diferencial (limma) e plotagem de alguns gráficos. Cada código conta com explicações específicas de sua funcionalidade.
