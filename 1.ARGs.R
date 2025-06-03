@@ -2,16 +2,19 @@
 ### ARGs definition ###
 #######################
 
-# Libraries
+### Explanation
+# Here, we will extract ensembl gene and transcript annotations for the genes previous selected.
+
+###### Libraries
 install.packages("readxl")
 library(readxl)
 
-# ARGs table as csv
+####### ARGs table as csv
 df <- read_excel("FAZER/ARGs/segunda parte/genes.xlsx")
 write.csv(df, "FAZER/ARGs/segunda parte/genes.csv", row.names = FALSE)
 ARG <- read.csv("FAZER/ARGs/segunda parte/genes.csv")
 
-# Ensemble ID annotation
+####### Ensemble ID annotation
 install.packages("biomaRt")
 library (biomaRt)
 library (dplyr)
