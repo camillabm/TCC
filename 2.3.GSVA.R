@@ -2,17 +2,9 @@
 ### GSVA ###
 ############
 
-if (!require("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
-install.packages("dplyr")
-BiocManager::install(c("GSVA","limma","GSEABase"))
-BiocManager::install("BiocParallel")
-BiocManager::install("BiocParallel")
-writeLines(
-  'PATH="C:\\rtools43\\usr\\bin;C:\\rtools43\\x86_64-w64-mingw32.static.posix\\bin;${PATH}"',
-  con = "~/.Renviron"
-)
-Sys.which("g++")
+### Explanation
+# Here, we will convert expression data into GSVA scores
+# GSVA scores will be used to input for differential expression analysis
 
 ###### Libraries
 library(GSVA)
