@@ -2,6 +2,10 @@
 ### Normal Tissue GTEx ###
 ##########################
 
+### Explanation
+# Here, normal tissue expression tables will be padronized
+# The personalyzed metadata tables will be done as well
+
 # GTEx data (.gdc) reading
   # GBM
     # Brain cortex (1)
