@@ -19,7 +19,7 @@ install.packages("biomaRt")
 library (biomaRt)
 library (dplyr)
 
-  # ENSG (gene)
+# ENSG (gene)
 ensembl <- useMart("ENSEMBL_MART_ENSEMBL", 
                    dataset = "hsapiens_gene_ensembl",
                    host = "https://grch37.ensembl.org") #Connection to ensembl
@@ -44,7 +44,7 @@ ARG <- ARG %>%
 
 write.csv(ARG, "FAZER/ARGs/segunda parte/genes.csv", row.names = FALSE)
 
-  # ENST (transcript)
+# ENST (transcript)
 ensembl <- useMart("ENSEMBL_MART_ENSEMBL", 
                    dataset = "hsapiens_gene_ensembl",
                    host = "https://grch37.ensembl.org") #Connection to ensembl
