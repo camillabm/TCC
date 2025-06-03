@@ -2,6 +2,10 @@
 ### Conversion to TPM ###
 #########################
 
+### Explanation
+# Here, we eill manually convert expression values of GEO data when needed.
+# Data will padronizated with TPM round values an HGNC symbol
+
 ##### Libraries
 library(readxl)
 library(GenomicFeatures)
